@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import '../styles/App.css'
 import Achievements from './Achievements'
 import Footer from './Footer'
@@ -10,7 +9,7 @@ function App() {
 
 	try {
 		return (
-    <div>
+    <div style={{backgroundColor: '#222', paddingLeft: "25px", paddingRight: "25px"}}>
 			<Navbar/>
             <WhoAmI/>
             <Achievements/>
